@@ -14,7 +14,10 @@
 Car Radiator Fan
 
 ## Applications
-Pdf in the main [here](201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf)
+Pdf in the main :
+- [article1](201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf)
+- [article2](CFD_MODELING_OF_A_RADIATOR_AXIAL_FAN_FOR_AIR_FLOW_.pdf)
+- [article3](Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf)
 
 
 ## Brief description
