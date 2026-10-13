@@ -32,13 +32,13 @@ The objective of this project is to design an axial fan for a car radiator. We w
 
 | Parameter | Target |
 |------|------|
-|  Flow rate  | 0.5-2.5 $m^{3/s}$   |  
+|  Flow rate  | 0.5-2.5 $m^3/s$   |  
 |   Pressure rise  | 1000-1200 Pa  |   
 |   Rotational speed   | 1500-2500 rpm (~2000rpm)  |
 
 ## Estimated power consumption
 
-We can estimate the power using the expression $P_{air} = Q \Delta p $. If we consider $Q = 1m^{3/s}$ and $\Delta p = 1100 Pa$, $P_{air} = 1100W$.
+We can estimate the power using the expression $P_{air} = Q \Delta p $. If we consider $Q = 1m^3/s$ and $\Delta p = 1100 Pa$, $P_{air} = 1100W$.
 
 ## Team's work regulations:
 1 meeting per week. Discussion on a whatsapp group if needed (exchange of information, time of the meeting, questions..)
