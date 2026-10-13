@@ -38,7 +38,7 @@ The objective of this project is to design an axial fan for a car radiator. We w
 
 ## Estimated power consumption
 
-We can estimate the power using the expression $P_air = Q\delta_p. If we consider Q = 1m^3/s and delta_p = 1100 Pa, P_air = 1100W.
+We can estimate the power using the expression $P_air = Q\delta_p$. If we consider Q = 1m^3/s and delta_p = 1100 Pa, P_air = 1100W.
 
 ## Team's work regulations:
 1 meeting per week. Discussion on a whatsapp group if needed (exchange of information, time of the meeting, questions..)
