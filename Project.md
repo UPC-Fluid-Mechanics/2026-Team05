@@ -41,3 +41,10 @@ The objective of this project is to design an axial fan for a car radiator and t
 ### 3.3 Boundary conditions
 
 
+## 4. Experimentation
+
+### 4.1 Relevant variables of the axial fan
+
+### 4.2 Proposed instrumentation for measuring and data acquisition
+
+### 4.3 ISO 5801:2019 application to the axial fan
