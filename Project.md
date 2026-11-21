@@ -91,7 +91,6 @@ The efficiency $\eta = 1$ is an ideal assumption for preliminary calculations.
 
    $$P_{\mathrm{air}} = Q\Delta p_0, \qquad P_{\mathrm{shaft}} = \frac{P_{\mathrm{air}}}{\eta}$$
 
-The total pressure rise $\Delta p_0$ must be established before completing the Euler-based calculations. The manufacturer's static pressure cannot be directly substituted without accounting for the difference between static and total pressure.
 
 ### Preliminary results
 
@@ -107,14 +106,9 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 | Mean radius $r_m$ | 0.1434 m |
 | Blade speed $U_m$ (mean) | 37.55 m/s |
 | Blade speed $U_{\mathrm{tip}}$ | 50.40 m/s |
-| Tip Mach number $M_{\mathrm{tip}}$ | 0.147 |
 | Flow coefficient $\phi$ | 0.0528 |
 | Static pressure-based coefficient $\psi_s$ | 0.00603 |
 | Static pressure power $Q\Delta p_s$ | 58.0 W |
-
-These results provide a first kinematic assessment of the fan. The tip Mach number indicates that compressibility effects are expected to remain limited.
-
-The outlet swirl velocity, flow angles, total pressure coefficient and shaft power will be calculated once the total pressure rise and aerodynamic efficiency assumptions have been established.
 
 
 ### 2.2 Geometry description of all parts of the axial fan
