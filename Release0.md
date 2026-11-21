@@ -20,7 +20,7 @@ The objective of this project is to design an axial fan for a car radiator and t
 
 ## 4. Reference designs
 
-- Ambdekar et al. (2014), *Design and Analysis of Engine Cooling Fan* – [201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf](201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf)
+- Ambdekar et al. (2014), *Design and Analysis of Engine Cooling Fan* – [201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf](References/201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf)
 - Elhaj et al. (2024), *CFD Modeling of a Radiator Axial Fan for Air Flow* – [CFD_MODELING_OF_A_RADIATOR_AXIAL_FAN_FOR_AIR_FLOW_.pdf](CFD_MODELING_OF_A_RADIATOR_AXIAL_FAN_FOR_AIR_FLOW_.pdf)
 - Pereira et al. (2021), *Improved Aerodynamics of a Hollow-Blade Axial Flow* – [Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf](Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf)
 
