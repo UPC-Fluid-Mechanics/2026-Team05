@@ -59,7 +59,6 @@ The following values are preliminary design assumptions. Some are taken from the
 | $\Delta p_s$ | 73.5 Pa | Static pressure at the nominal operating point | SPAL performance curve |
 | $\Delta p_0$ | To be determined | Total pressure rise required for the mean-line analysis | To be established |
 
-The efficiency $\eta = 1$ is an ideal assumption for preliminary calculations.
 
 ### Method
 
