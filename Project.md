@@ -11,10 +11,10 @@ The objective of this project is to design an axial fan for a car radiator and t
 
 - Ambdekar et al. (2014), *Design and Analysis of Engine Cooling Fan* – [201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf](References/201314DesignandAnalysisofEngineCoolingFan-Tushar.pdf)
 - Elhaj et al. (2024), *CFD Modeling of a Radiator Axial Fan for Air Flow* – [CFD_MODELING_OF_A_RADIATOR_AXIAL_FAN_FOR_AIR_FLOW_.pdf](References/CFD_MODELING_OF_A_RADIATOR_AXIAL_FAN_FOR_AIR_FLOW_.pdf)
-- Pereira et al. (2021), *Improved Aerodynamics of a Hollow-Blade Axial Flow* – [Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf](References/Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf
+- Pereira et al. (2021), *Improved Aerodynamics of a Hollow-Blade Axial Flow* – [Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf](References/Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf)
 - SPAL VA18-AP71/LL-59A, Commercial 12 V automotive axial fan - [VA18-AP71-LL-59A-42S.pdf](References/VA18-AP71-LL-59A-42S.pdf)
 
-## 1.2 Target specifications
+### 1.2 Target specifications
 
 The SPAL VA18-AP71/LL-59A is used as a commercial benchmark. Its external dimensions and performance curve provide a reference, while the blade geometry will be independently designed.
 The preliminary design ranges below are based on the literature. 
@@ -42,6 +42,8 @@ The selected nominal operating point is approximately 2840 m³/h (0.789 m³/s) a
 ## 2. Design
 
 ### 2.1 Specification and dimensionless parameters
+
+### Assumptions
 
 The following values are preliminary design assumptions. Some are taken from the SPAL reference, while others are based on standard engineering assumptions.
 
