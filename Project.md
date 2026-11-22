@@ -120,7 +120,17 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 
 ### 2.4 Mean line analysis
 
-
+| Quantity | Preliminary result |
+|----------|-------------------|
+| Diffusion factor $DF$ | 0.4 |
+| Drag coefficient $C_D$ | 0.02 |
+| Pitch chord ratio $s/l$ | 3.2592  |
+| Pitch $s$ | 112.6261 mm |
+| Minimum chord $l_min$ | 34.5560 mm |
+| Chord for CL=1 $l_CL_1$ | 35.9235 mm |
+| Camber angle  $theta$  9.8717 deg |
+| Deviation angle $sigma$ | 6.5217 deg |
+| Stagger angle U_{\mathrm{tip}}$ | 72.9058 deg |
 
 ## 3. CFD
 
