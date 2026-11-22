@@ -111,10 +111,14 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 
 
 ### 2.2 Geometry description of all parts of the axial fan
+|----------|-------------------|
+| Inlet relative angle $beta_1$ | 71.32 deg|
+| Outlet relative angle $beta_2$ | 67.97 deg |
 
 ### 2.3 Materials and characteristics
 
 ### 2.4 Mean line analysis
+
 
 
 ## 3. CFD
