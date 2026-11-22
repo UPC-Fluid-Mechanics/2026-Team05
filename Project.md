@@ -129,8 +129,8 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 | Minimum chord $l_{min}$ | 34.5560 mm |
 | Chord for CL=1 | 35.9235 mm |
 | Camber angle  $\theta$ |  9.8717 deg |
-| Deviation angle $\sigma$ | 6.5217 deg |
-| Stagger angle $\epsilon$ | 72.9058 deg |
+| Deviation angle $\Sigma$ | 6.5217 deg |
+| Stagger angle $\Epsilon$ | 72.9058 deg |
 
 ## 3. CFD
 
