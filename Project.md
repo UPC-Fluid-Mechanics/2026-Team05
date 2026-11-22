@@ -123,7 +123,7 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 
 | Quantity | Preliminary result |
 |----------|-------------------|
-| Diffusion factor $DF$ | 0.4 |
+| Diffusion factor $DF$ | 0.40 |
 | Drag coefficient $C_D$ | 0.02 |
 | Pitch chord ratio $s/l$ | 3.2592  |
 | Pitch $s$ | 112.6261 mm |
