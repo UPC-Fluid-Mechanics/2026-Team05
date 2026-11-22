@@ -22,7 +22,7 @@ The preliminary design ranges below are based on the literature.
 | Parameter | Target range / value | Source |
 |-----------|---------------------|--------|
 | Flow rate $Q$ | 0.5 – 2.5 m³/s | Literature review |
-| Pressure rise $\Delta p$ |  |  |
+| Pressure rise $\Delta p$ | 100 Pa | Literature review |
 | Rotational speed $N$ | 1500 – 2500 rpm | Literature review |
 | Tip diameter $D$ | 385 mm | SPAL reference |
 | Hub diameter $D_h$ | Approximately 128 mm | SPAL reference |
