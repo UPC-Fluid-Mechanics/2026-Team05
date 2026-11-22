@@ -53,11 +53,11 @@ The following values are preliminary design assumptions. Some are taken from the
 | $D$ | 0.385 m | Tip diameter | SPAL reference |
 | $D_h$ | 0.128 m | Hub diameter | SPAL reference |
 | $\nu = D_h/D$ | 0.332 | Hub-to-tip diameter ratio | Calculated from SPAL dimensions |
-| $N$ | 2500 rpm | Preliminary rotational speed | Literature range; selected design value |
+| $N$ | 1500 rpm | Preliminary rotational speed | Literature range; selected design value |
 | $\eta$ | 1 | Ideal efficiency for the first theoretical estimate | Ideal assumption |
 | $Q$ | 0.789 m³/s | Selected nominal flow rate | SPAL performance curve |
 | $\Delta p_s$ | 73.5 Pa | Static pressure at the nominal operating point | SPAL performance curve |
-| $\Delta p_0$ | To be determined | Total pressure rise required for the mean-line analysis | To be established |
+| $\Delta p_0$ | 100 Pa | Preliminary pressure rise | Total pressure rise required for the mean-line analysis | To be established |
 
 
 ### Method
@@ -93,21 +93,21 @@ The following values are preliminary design assumptions. Some are taken from the
 
 ### Preliminary results
 
-For the selected nominal flow rate, using the SPAL reference dimensions and a rotational speed of 2500 rpm:
+For the selected nominal flow rate, using the SPAL reference dimensions and a rotational speed of 1500 rpm:
 
 | Quantity | Preliminary result |
 |----------|-------------------|
 | Tip diameter $D$ | 0.385 m |
 | Hub diameter $D_h$ | 0.128 m |
 | Annulus area $A$ | 0.10355 m² |
-| Angular speed $\omega$ | 261.8 rad/s |
+| Angular speed $\omega$ | 157.08 rad/s |
 | Axial velocity $c_x$ | 7.62 m/s |
 | Mean radius $r_m$ | 0.1434 m |
-| Blade speed $U_m$ (mean) | 37.55 m/s |
-| Blade speed $U_{\mathrm{tip}}$ | 50.40 m/s |
-| Flow coefficient $\phi$ | 0.0528 |
-| Static pressure-based coefficient $\psi_s$ | 0.00603 |
-| Static pressure power $Q\Delta p_s$ | 58.0 W |
+| Blade speed $U_m$ (mean) | 22.53 m/s |
+| Blade speed $U_{\mathrm{tip}}$ | 30.24 m/s |
+| Flow coefficient $\phi$ | 0.0880 |
+| Pressure coefficient $\psi_s$ | 0.0228 |
+| Pressure power $Q\Delta p_s$ | 78.9 W |
 
 
 ### 2.2 Geometry description of all parts of the axial fan
