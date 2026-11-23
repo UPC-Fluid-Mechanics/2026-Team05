@@ -117,6 +117,12 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 | Inlet relative angle $\beta_1$ | 71.32 deg |
 | Outlet relative angle $\beta_2$ | 67.97 deg |
 
+The axial fan geometry is based on the dimensions of the commercial SPAL VA18-AP71/LL-59A fan.
+The fan has an external diameter of 385 mm and a hub diameter of approximately 128 mm.
+The preliminary design has eight blades distributed uniformly around the hub.
+The blade inlet and outlet angles are determined from the preliminary velocity triangle analysis at the mean radius. 
+The final blade geometry will be adjusted following the aerodynamic analysis and CFD simulations.
+
 ### 2.3 Materials and characteristics
 
 ### 2.4 Mean line analysis
@@ -132,6 +138,11 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 | Camber angle  $\theta$ |  9.8717 deg |
 | Deviation angle $\delta$ | 6.5217 deg |
 | Stagger angle $\xi$ | 72.9058 deg |
+
+The mean line analysis is performed to obtain a preliminary aerodynamic design of the axial fan. 
+The blade geometry is characterised using aerodynamic parameters such as the diffusion factor, drag coefficient and pitch-to-chord ratio.
+The diffusion factor provides an indication of the aerodynamic loading and the risk of flow separation on the blade suction side and the pitch-to-chord ratio describes the spacing between adjacent blades relative to their chord length.
+These results represent a preliminary design and will be refined through the CFD analysis.
 
 ## 3. CFD
 
