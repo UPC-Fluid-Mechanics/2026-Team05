@@ -104,7 +104,7 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 | Blade speed $U_m$ (mean) | 22.53 m/s |
 | Blade speed $U_{\mathrm{tip}}$ | 30.24 m/s |
 | Flow coefficient $\phi$ | 0.0880 |
-| Pressure coefficient $\psi_s$ | 0.0228 |
+| Pressure coefficient $\psi$ | 0.0228 |
 | Pressure power $Q\Delta p_s$ | 78.9 W |
 
 
