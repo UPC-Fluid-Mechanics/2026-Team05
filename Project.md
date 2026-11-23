@@ -105,7 +105,7 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 | Blade speed $U_{\mathrm{tip}}$ | 30.24 m/s |
 | Flow coefficient $\phi$ | 0.0880 |
 | Pressure coefficient $\psi$ | 0.0228 |
-| Pressure power $Q\Delta p_s$ | 78.9 W |
+| Pressure power $Q\Delta p$ | 78.9 W |
 
 
 ### 2.2 Geometry description of all parts of the axial fan
