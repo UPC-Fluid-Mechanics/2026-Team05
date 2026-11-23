@@ -159,7 +159,8 @@ We will use Simscale for the mesh generation. Local mesh refinement is required 
 
 ### 3.3 Boundary conditions
 
-Air is defined as the working fluid. The rotor is modelled using a rotating reference frame (MRF), with a rotational speed of 1500 rpm. The hub, blades and casing are defined as no-slip walls.
+Air is defined as the working fluid. The rotor is modelled using a rotating reference frame (MRF), with a rotational speed of 1500 rpm. The hub, blades and casing are defined as no-slip walls. 
+A pressure driven configuration is adopted, with a total pressure inlet of 0 Pa and a static pressure outlet of 0 Pa.
 The simulation will be used to analyse the velocity and pressure fields and to evaluate the aerodynamic performance of the designed rotor.
 
 ## 4. Experimentation
