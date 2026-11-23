@@ -124,6 +124,9 @@ The blade inlet and outlet angles are determined from the preliminary velocity t
 
 ### 2.3 Materials and characteristics
 
+The fan blades can be made of PA66-GF30 (30% glass fibre reinforced polyamide 66). This material is commonly used in automotive applications, including cooling fans. It offers good mechanical strength, stiffness and thermal resistance, making it suitable for the operating conditions of an automotive radiator fan.
+The material is chsoen according to the technical information provided by [DOMO Chemicals – TECHNYL](https://www.domochemicals.com/).
+
 ### 2.4 Mean line analysis
 
 | Quantity | Preliminary result |
