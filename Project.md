@@ -156,7 +156,6 @@ The main geometrical dimensions are based on the selected SPAL reference: an ext
 
 The computational domain is discretised using a three-dimensional mesh. It has to be refined near the blade surfaces, leading and trailing edges.
 We will use Simscale for the mesh generation. Local mesh refinement is required in regions with strong velocity and pressure gradients to capture the main aerodynamic features of the flow.
-Mesh quality and near-wall resolution will be assessed before the final simulations.
 
 ### 3.3 Boundary conditions
 
