@@ -13,7 +13,7 @@ The objective of this project is to design an axial fan for a car radiator and t
 - Elhaj et al. (2024), *CFD Modeling of a Radiator Axial Fan for Air Flow* – [CFD_MODELING_OF_A_RADIATOR_AXIAL_FAN_FOR_AIR_FLOW_.pdf](References/CFD_MODELING_OF_A_RADIATOR_AXIAL_FAN_FOR_AIR_FLOW_.pdf)
 - Pereira et al. (2021), *Improved Aerodynamics of a Hollow-Blade Axial Flow* – [Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf](References/Improved_Aerodynamics_of_a_Hollow-Blade_Axial_Flow-1.pdf)
 - SPAL VA18-AP71/LL-59A, Commercial 12 V automotive axial fan - [VA18-AP71-LL-59A-42S.pdf](References/VA18-AP71-LL-59A-42S.pdf)
-- Domo PA66 technical informations - [Domo PA66  TECHNYL A 218 V30 BK 34NG.pdf](References/Domo PA66  TECHNYL A 218 V30 BK 34NG.pdf)
+- Domo PA66 technical informations - [Domo_PA66_TECHNYL_A_218_V30_BK_34NG.pdf](References/Domo_PA66_TECHNYL_A_218_V30_BK_34NG.pdf)
 
 ### 1.2 Target specifications
 
