@@ -108,6 +108,11 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 | Pressure coefficient $\psi$ | 0.0228 |
 | Pressure power $Q\Delta p$ | 78.9 W |
 
+### Dimensionless performance coefficients
+![diagramme_phi_psi.png](images/diagramme_phi_psi.png)
+
+The dimensionless flow coefficient (\(\Phi\)) and pressure coefficient (\(\psi\)) are used to characterize the operating range of different turbomachines. This operating point lies within the axial fan region of the diagram. This confirms that the selected design parameters are consistent with the expected operating range of an axial fan.
+
 
 ### 2.2 Geometry description of all parts of the axial fan
 | Geometry | Preliminary result |
