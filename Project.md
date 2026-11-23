@@ -148,10 +148,20 @@ These results represent a preliminary design and will be refined through the CFD
 
 ### 3.1 CAD description
 
+The 3D geometry of the axial fan will be designed using the methodology presented in the C4 course session. The CAD model consists of a central hub and eight uniformly distributed blades.
+The blade geometry is based on the preliminary parameters obtained in the design part.
+The main geometrical dimensions are based on the selected SPAL reference: an external diameter of 385 mm and a hub diameter of 128 mm.
+
 ### 3.2 Mesh description
+
+The computational domain is discretised using a three-dimensional mesh. It has to be refined near the blade surfaces, leading and trailing edges.
+We will use Simscale for the mesh generation. Local mesh refinement is required in regions with strong velocity and pressure gradients to capture the main aerodynamic features of the flow.
+Mesh quality and near-wall resolution will be assessed before the final simulations.
 
 ### 3.3 Boundary conditions
 
+Air is defined as the working fluid. The rotor is modelled using a rotating reference frame (MRF), with a rotational speed of 1500 rpm. The hub, blades and casing are defined as no-slip walls.
+The simulation will be used to analyse the velocity and pressure fields and to evaluate the aerodynamic performance of the designed rotor.
 
 ## 4. Experimentation
 
