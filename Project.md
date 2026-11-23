@@ -121,7 +121,6 @@ The axial fan geometry is based on the dimensions of the commercial SPAL VA18-AP
 The fan has an external diameter of 385 mm and a hub diameter of approximately 128 mm.
 The preliminary design has eight blades distributed uniformly around the hub.
 The blade inlet and outlet angles are determined from the preliminary velocity triangle analysis at the mean radius. 
-The final blade geometry will be adjusted following the aerodynamic analysis and CFD simulations.
 
 ### 2.3 Materials and characteristics
 
