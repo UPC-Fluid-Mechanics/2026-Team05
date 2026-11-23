@@ -144,8 +144,111 @@ For the selected nominal flow rate, using the SPAL reference dimensions and a ro
 
 ## 4. Experimentation
 
-### 4.1 Relevant variables of the axial fan
+To characterise and evaluate fan performance in accordance with ISO 5801 and AMCA 210, a set of primary variables must be recorded on the test bench and the corresponding derived quantities computed. These are grouped below into ambient conditions and fluid properties, machine operating quantities, and synthetic indicators and dimensionless parameters.
 
-### 4.2 Proposed instrumentation for measuring and data acquisition
+### 4.1 Relevant Variables of the Axial Fan
 
-### 4.3 ISO 5801:2019 application to the axial fan
+*Table 1a. Ambient conditions and fluid properties*
+
+| Quantity | Symbol | Unit | How obtained / Notes |
+|---|---|---|---|
+| Barometric pressure | $P_a$ | Pa | Measured in the test environment with an absolute barometer |
+| Air temperature | $T_a$ | K | Measured at the fan inlet |
+| Air density | $\rho$ | kg/m³ | Computed from the ideal-gas equation of state: $\rho = P_a / (R \cdot T_a)$ (1), where $R = 287.05$ J/(kg·K) is the specific gas constant of dry air |
+| Dynamic viscosity | $\mu$ | Pa·s | Computed with the linear correlation recommended by ISO 5801:2019 for temperatures between −20 °C and 100 °C: $\mu(T) = (17.1 + 0.048 \cdot T_a) \times 10^{-6}$ (2) |
+
+*Table 1b. Machine operating quantities*
+
+| Quantity | Symbol | Unit | How obtained / Notes |
+|---|---|---|---|
+| Volumetric flow rate | $Q$ | m³/s | Air flow processed by the machine |
+| Mass flow rate | $\dot{m}$ | kg/s | Air flow processed by the machine |
+| Static pressure rise | $\Delta p_s$ | Pa | Pressure increase imparted by the fan to the fluid stream |
+| Total pressure rise | $\Delta p_0$ | Pa | Pressure increase imparted by the fan to the fluid stream: $\Delta p_0 = \Delta p_s + \tfrac{1}{2}\rho c_2^2$ (3) |
+| Rotational speed | $N$ | rpm | Measured on the test bench |
+| Angular velocity | $\omega$ | rad/s | $\omega = 2\pi N / 60$ (4) |
+| Shaft torque | $M$ | N·m | Resisting torque opposed by the fan rotor |
+| Absorbed mechanical power | $P_m$ | W | $P_m = M \cdot \omega$ (5) |
+
+*Table 1c. Synthetic indicators and dimensionless parameters*
+
+| Quantity | Symbol | Unit | Formula | Notes |
+|---|---|---|---|---|
+| Specific mechanical energy | $Y$ | J/kg | $Y = \Delta p_0 / \rho$ (6) | – |
+| Mechanical (overall) efficiency | $\eta$ | – | $\eta = \dfrac{\Delta p_0 \cdot Q}{P_m} = \dfrac{\Delta p_0 \cdot Q}{M \cdot \omega}$ (7) | – |
+| Flow coefficient | $\varphi$ | – | $\varphi = c_x / U$ (8) | $c_x$ = axial velocity; $U$ = blade peripheral speed |
+| Loading (pressure) coefficient | $\psi$ | – | $\psi = \Delta p_0 / (\rho U^2)$ (8) | $U$ = blade peripheral speed |
+
+### 4.2 Proposed Instrumentation for Measurement and Data Acquisition
+
+The measurement chain follows the standard logical flow: physical sensor → analogue transducer → data acquisition (DAQ) system → post-processing and error analysis (Figure 1).
+
+```text
+Physical sensor  →  Analogue transducer  →  DAQ board                →  Processing
+                                            (e.g. National Instruments)   (Python / PC)
+```
+
+*Figure 1. Measurement and data acquisition chain.*
+
+The instruments proposed for each physical quantity, together with their technical specifications and the rationale for their selection, are listed in Table 2.
+
+| Physical quantity | Proposed device / sensor | Specifications and rationale |
+|---|---|---|
+| Volumetric flow rate, $Q$ | Bellmouth inlet nozzle | Installed at the intake of the plenum chamber. The bellmouth offers a high discharge coefficient ($C_d \approx 0.98$) and minimal pressure loss, avoiding throttling of the flow at high flow rates (0.5-2.5 m³/s). |
+| Differential pressure, $\Delta p$ | WIKA differential pressure transmitter (air2guide A2G-50 or DPT-10/20 series) | High-accuracy piezoresistive sensor for low differential pressures in air. Selectable full scale 0–250 Pa or 0–500 Pa; analogue output 4–20 mA or 0–10 V. The selected range must be verified against the design pressure rise ($\Delta p_0 \approx$ 100–120 Pa). |
+| Static pressure taps | Wall static taps | Holes normal to the chamber wall, small diameter ($d < 1.5$ mm) with burr-free edges to avoid recirculation or parasitic vortices in the cavity that would alter the measurement ($L/d < 1.5$). |
+| Temperature, $T_a$ | Pt100 resistance thermometer (or Type T/K thermocouple) | High-accuracy sensor (±0.1 °C) placed in the intake flow to continuously correct air density and viscosity. |
+| Rotational speed, $N$ | Laser optical tachometer / incremental encoder | Contactless speed detection on the shaft, so as not to introduce parasitic friction in the torque measurement. |
+| Torque, $M$ | Strain-gauge dynamic torque transducer | Flanged between the driving electric motor and the fan shaft. |
+| Data acquisition (DAQ) | Multifunction DAQ board (e.g. National Instruments / Modbus) | Converts analogue signals into digital inputs, which are distributed and processed in Python. |
+
+*Table 2. Proposed instrumentation*
+
+### 4.3 Application of ISO 5801:2019 to the Axial Fan
+
+#### 4.3.1 Test Rig Layout: Plenum Chamber Configuration
+
+For a low-pressure, high-flow axial fan, the most suitable standardised configuration according to ISO 5801:2019 is the plenum-chamber test rig on the inlet side (Installation Category A or C). The layout is shown schematically in Figure 2.
+
+```text
+Ambient → Bellmouth → Plenum chamber    → Fan under test → Blast gate  → Exhaust
+                      (honeycomb grid)    (axial fan unit)   (throttle)
+```
+
+*Figure 2. Schematic layout of the plenum-chamber test rig.*
+
+The main elements of the rig are:
+
+- **Air inlet:** ambient air enters the chamber through the bellmouth inlet nozzle.
+- **Plenum chamber:** a large rectangular or circular volume with an area ratio greater than 10:1 with respect to the fan duct.
+- **Flow conditioner (flow straightener / honeycomb):** turbulence-breaking grids and honeycomb straighteners installed inside the plenum damp inlet vortices and ensure a uniform velocity profile at the fan inlet.
+- **Fan under test:** the radiator axial fan is flanged onto the outlet wall of the plenum.
+- **Load regulation (blast gate / throttle valve):** a throttling damper at the discharge varies the circuit resistance, allowing the full characteristic curve to be measured from maximum flow (free delivery) to the blocked / stall condition.
+
+### 4.3.2 Performance Correction and Scaling (Similarity)
+
+Because the motor speed may vary slightly under load during the test, ISO 5801 requires all measured points to be rescaled to a constant reference speed $N_0$ by means of the similarity relations:
+
+$$
+Q_0 = Q \cdot \frac{N_0}{N} \qquad \text{(9)}
+$$
+
+$$
+Y_0 = Y \cdot \left(\frac{N_0}{N}\right)^{2} \qquad \text{(10a)}
+$$
+
+$$
+\Delta p_{0,0} = \Delta p_0 \cdot \left(\frac{N_0}{N}\right)^{2} \qquad \text{(10b)}
+$$
+
+$$
+P_{m,0} = P_m \cdot \left(\frac{N_0}{N}\right)^{3} \qquad \text{(11)}
+$$
+
+$$
+\eta_0 = \eta \qquad \text{(12)}
+$$
+
+Equation (10b) follows from (10a) since $Y = \Delta p_0 / \rho$ and the density is unchanged by the rescaling. Equation (12) states that the efficiency is invariant under the rescaling.
+
+Rescaled points are then used to build the performance curves of the fan at the reference speed: total pressure rise $\Delta p_0$ versus $Q$, absorbed power $P_m$ versus $Q$, and efficiency $\eta$ versus $Q$.
